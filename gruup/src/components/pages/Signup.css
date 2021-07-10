@@ -1,0 +1,55 @@
+.signUp {
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 11rem;
+    height: 100%;
+    font-size: 1.2cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+
+.emailAddress {
+    color: rgb(75, 148, 118);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.3rem;
+    padding-top: 2rem;
+    height: 100%;
+    font-size: 17pt;
+    
+}
+
+
+
+.password {
+    color: rgb(75, 148, 118);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.3rem;
+    padding-top: 2rem;
+    height: 100%;
+    font-size: 17pt;
+    
+}
+
+
+
+.submitButton{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    font-size: 13pt;
+    padding-top: 7pt;
+    padding-left: 17pt;
+    padding-right: 17pt;
+    padding-bottom: 7pt;
+
+
+    
+}
