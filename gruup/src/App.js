@@ -1,15 +1,24 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./components/pages/Home";
+// import Dashboard from "./components/pages/Dashboard";
+// import Signup from "./components/pages/Signup"
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        
-      </header>
-    </div>
+  <>
+   <Router>   
+       <Navbar />
+       <Switch>
+         <Route path = '/' exact component = {Home} />
+         {/* <Route path = '/signup' exact component = {Signup} />
+         <Route path = '/dashboard' exact component = {Dashboard} /> */}
+       </Switch>
+
+   </Router>
+     
+
+   </>
   );
 }
-
-export default App;
