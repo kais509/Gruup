@@ -8,7 +8,9 @@ import Signup from "./components/pages/Signup";
 
 export default function App() {
   return (
-  <>
+    <div className="App">
+      
+  
    <Router>   
        <Navbar />
        <Switch>
@@ -18,8 +20,8 @@ export default function App() {
        </Switch>
 
    </Router>
-     
-
-   </>
+   <header className="App-header"> </header>
+  </div>
+   
   );
 }

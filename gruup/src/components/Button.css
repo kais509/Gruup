@@ -1,5 +1,6 @@
 :root {
     --primary: rgb(161, 18, 18);
+    
   }
   
   .btn {
@@ -8,6 +9,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    
   }
   
   .btn--primary {
@@ -40,4 +42,5 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+    
   }

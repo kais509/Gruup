@@ -1,14 +1,18 @@
 .container {
 
     text-align: left;
-    padding-left: 8rem;
+    padding-left: 6rem;
     padding-top: 6rem;
     height: 200px;
-    line-height: 12 rem;
-    color: rgb(204, 27, 27);
+    color: #2F4A6A;
+    font-size: 25px;
+    ;
+   
 
   }
-
+.container p{
+  padding-top: 7rem;
+}
 
   .word {
     font-size:3em;
