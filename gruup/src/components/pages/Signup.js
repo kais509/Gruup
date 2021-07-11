@@ -5,17 +5,17 @@ import './Signup.css';
 
 function Signup () {
     return (
-        <div style={{ color: '#7c1c1c',backgroundColor: '#7c1c1c', height: 140 }}> 
+
         
             <form >
-                <h1 className = "Signup"> Sign up </h1>
-                <label className = "emailAddress"> Email Address</label> <input type = "text"  className = "enterValue" placeholder = "Email Address"/><br />
-                <label  className = "password"> Password</label> <input type = "text"  className = "enterValue" placeholder = "Password"/> <br />  
-               <input  className = "submitButton" type = "submit" value="Submit"/>
+                <h1 className = "signUp"> Sign up </h1>
+                <label className = "emailAddress"> Email Address</label> <input type = "text"  className = "enterValue" /><br />
+                <label  className = "password"> Password</label> <input type = "text"  className = "enterValue" /> <br />  
+               <input  className = "submitButton" type = "submit" value="Continue"/>
             </form>
 
 
-        </div>
+  
 
 
     )

@@ -1,36 +1,53 @@
 .signUp {
-    color: rgb(0, 0, 0);
     display: flex;
+    color: #2F4A6A;
     text-decoration: none;
     justify-content: center;
-    padding-top: 11rem;
+    padding-top: 4rem;
     height: 100%;
-    font-size: 1.2cm;
+    font-size: 4rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
 }
 
+.enterValue{
+    display: flex;
+    margin: 0 auto;
+    align-self: center;
+    font-size: 17pt;
+    text-align: center;
+    height: 14h;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2em;
+    border-radius: 1rem;
+    box-shadow: 10rem;
+    width: 40em;
+}
 
 .emailAddress {
-    color: rgb(75, 148, 118);
+    color:#2F4A6A;
     display: flex;
     justify-content: center;
     padding-bottom: 0.3rem;
     padding-top: 2rem;
     height: 100%;
+    font-weight: 700;
     font-size: 17pt;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
 
 .password {
-    color: rgb(75, 148, 118);
+    color:#2F4A6A;
     display: flex;
     justify-content: center;
     padding-bottom: 0.3rem;
     padding-top: 2rem;
     height: 100%;
+    font-weight: 700;
     font-size: 17pt;
     
 }
@@ -38,18 +55,16 @@
 
 
 .submitButton{
-    color: rgb(0, 0, 0);
+    color:#2F4A6A;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
     display: flex;
     height: 100%;
     font-size: 13pt;
-    padding-top: 7pt;
+    padding-top: 8pt;
     padding-left: 17pt;
     padding-right: 17pt;
     padding-bottom: 7pt;
-
-
     
 }

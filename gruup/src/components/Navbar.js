@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
+import { Button } from './SignUpButton';
 function Navbar() {
 
     const [click, setClick] = useState(false);
@@ -60,6 +60,8 @@ useEffect(() => {
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>Sign up</Button>}
                     {button && <Button buttonStyle='btn--outline'>Log in</Button>}
+                    
+                   
                 </div>
             </nav>
         </>

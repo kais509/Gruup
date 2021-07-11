@@ -3,9 +3,10 @@ import "../../App.css";
 import "./Home.css";
 // import HeroSection from "../HeroSection";
 
-//for the paragprah can you move it down @sarim?
+
 function Home (){
     return (
+
    
         <div class="container"> <h1> Counselling doesn't have to be</h1> 
         <div class="word w1">Scary.</div>
@@ -17,6 +18,8 @@ function Home (){
         <p>
             Gruup connects you to counselling groups helping<br></br> you with X, Y, Z.  You don’t have to be alone.<br></br> Find your selected community. 
             </p> 
+     <img src="gruup/public/1.png" alt="" className="homeLogo"></img>
+
 
         </div>
         
