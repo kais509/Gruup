@@ -19,8 +19,19 @@ function Home (){
             Gruup connects you to counselling groups helping<br></br> you with X, Y, Z.  You don’t have to be alone.<br></br> Find your selected community. 
             </p> 
          
-          <img src = "group_therapy_500_clr_17543.gif" alt = "hi"></img>
+          <img src = "pwvs6atMNMdw.gif" alt = "hi"></img>
+           
+           <div class = "container-pic-rounded"> 
+          <img src = "download.jpeg" alt = "rounded"></img> 
+          <img src = "download.jpeg" alt = "rounded"></img> 
+          <img src = "download.jpeg" alt = "rounded"></img> 
+          </div>
 
+          <div class = "paragraph-container">
+              <p>Feeling good shouldn't hurt your wallet.<br></br>Significantly cheaper than 1-1 online<br></br>and in-person therapy.</p>
+              <p>Find a community.</p>
+              <p>Easy process.</p>
+          </div>
         </div>
         
                 

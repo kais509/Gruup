@@ -48,19 +48,18 @@ useEffect(() => {
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/signup' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/signup' className='nav-links' onClick={closeMobileMenu}>
                                 Sign Up
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
                                 Log in
                             </Link>
                         </li>
                     
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign up</Button>}
-                    {button && <Button buttonStyle='btn--outline'>Log in</Button>}
+                    
                     
                    
                 </div>
