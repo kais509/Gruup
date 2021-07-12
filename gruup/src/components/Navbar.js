@@ -28,6 +28,7 @@ useEffect(() => {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                         <img src = "1.png" alt = "Gruup Logo"></img>
                         Gruup
                </Link>
                     <div className='menu-icon' onClick={handleClick}>

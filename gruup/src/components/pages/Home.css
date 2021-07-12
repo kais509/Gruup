@@ -13,6 +13,11 @@
 .container p{
   padding-top: 7rem;
 }
+.container img{
+  position: relative;
+  left: 60%;
+  bottom: 140%;
+}
 
   .word {
     font-size:3em;

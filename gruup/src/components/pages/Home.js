@@ -18,8 +18,8 @@ function Home (){
         <p>
             Gruup connects you to counselling groups helping<br></br> you with X, Y, Z.  You don’t have to be alone.<br></br> Find your selected community. 
             </p> 
-     <img src="gruup/public/1.png" alt="" className="homeLogo"></img>
-
+         
+          <img src = "group_therapy_500_clr_17543.gif" alt = "hi"></img>
 
         </div>
         
