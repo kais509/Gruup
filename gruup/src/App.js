@@ -4,9 +4,10 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from "./components/pages/Home";
 import Signup from "./components/pages/Signup";
 import Form from "./components/pages/Form";
+import SessionsAvail from "./components/pages/SessionsAvail";
 
-// import Dashboard from "./components/pages/Dashboard";
-// import Signup from "./components/pages/Signup"
+
+
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
          <Route path = '/' exact component = {Home} />
          <Route path = '/signup' exact component = {Signup} />
          <Route path = '/form' exact component = {Form} />
+         <Route path = '/sessionsavailable' exact component = {SessionsAvail} />
          {/* <Route path = '/dashboard' exact component = {Dashboard} /> */}
        </Switch>
 
