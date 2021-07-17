@@ -1,9 +1,14 @@
 import React from 'react';
 import "../../App.css";
 import './Signup.css';
+import {useHistory} from "react-router-dom";
 
 
 function Signup () {
+    const history = useHistory();
+    const navigateTo = () => history.push('/form');
+
+
     return (
 
         
@@ -11,7 +16,7 @@ function Signup () {
                 <h1 className = "signUp"> Sign up </h1>
                 <label className = "emailAddress"> Email Address</label> <input type = "text"  className = "enterValue" /><br />
                 <label  className = "password"> Password</label> <input type = "text"  className = "enterValue" /> <br />  
-               <input  className = "submitButton" type = "submit" value="Continue"/>
+               <input  className = "submitButton" onClick={navigateTo} type = "submit" value="Continue"/>
             </form>
 
 

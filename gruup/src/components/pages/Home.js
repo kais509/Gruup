@@ -9,11 +9,11 @@ function Home (){
 
    
         <div class="container"> <h1> Counselling doesn't have to be</h1> 
-        <div class="word w1">Scary.</div>
+        <div class="word w1">Complicated.</div>
         <div class="word w2">Expensive.</div>
         <div class="word w3">Isolating.</div>
         <div class="word w4">Difficult.</div>
-        <div class="word w5">Problematic.</div>   
+        <div class="word w5">A luxury.</div>   
        
         <p>
             Gruup connects you to counselling groups helping<br></br> you with X, Y, Z.  You don’t have to be alone.<br></br> Find your selected community. 
