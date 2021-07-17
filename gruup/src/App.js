@@ -7,7 +7,9 @@ import Form from "./components/pages/Form";
 import SessionsAvail from "./components/pages/SessionsAvail";
 import Payment from "./components/pages/Payment";
 import UserSession from "./components/pages/UserSession";
-
+import Howitworks from "./components/pages/Howitworks";
+import faq from "./components/pages/Faq";
+import login from "./components/pages/Login"
 
 
 
@@ -26,6 +28,9 @@ export default function App() {
          <Route path = '/payment' exact component = {Payment} />
          <Route path = '/usersession' exact component = {UserSession} />
          {/* <Route path = '/dashboard' exact component = {Dashboard} /> */}
+         <Route path = '/howitworks' exact component = {Howitworks} />
+         <Route path = '/faq' exact component = {faq} />
+         <Route path = '/login' exact component = {login}/>
        </Switch>
 
    </Router>
