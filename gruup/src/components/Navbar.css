@@ -9,13 +9,15 @@
     z-index: 999;
     font-weight: bold;
   }
+
+
   
   .navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5rem;
-    max-width: 1500px;
+    max-width: 2000px;
   }
   
   .navbar-logo {
@@ -24,13 +26,15 @@
     margin-left: 23px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
   }
   .navbar-logo img{
-    padding-right: 20px;
-    padding-top: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    width: 50px;
+
   }
   
   .fa-typo3 {

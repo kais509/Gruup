@@ -23,7 +23,7 @@ function Login() {
             <div class="textfil"> 
             <TextField  id="standard-basic"  type="password" autoComplete="current-password" label="Password" />
             </div>
-            <a href = "/login">Don't have an account yet?</a>
+            <a href = "/signup">Don't have an account yet?</a>
             <Button className="name" onClick={navigateTo} variant="outlined">Log In</Button>
             </div>
         </form>
