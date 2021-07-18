@@ -6,14 +6,15 @@ import Button from '@material-ui/core/Button';
 import Roll from 'react-reveal/Roll';
 import Zoom from 'react-reveal/Zoom';
 import LightSpeed from 'react-reveal/LightSpeed';
+import Avatar from '@material-ui/core/Avatar';
 
- //import HeroSection from "../HeroSection";
+//import HeroSection from "../HeroSection";
 
 
 function Home() {
     return (
 
-   
+
 
 
         <div class="container"> <h1> Counselling doesn't have to be</h1>
@@ -33,22 +34,22 @@ function Home() {
             </Roll>
             <img class="image-logo" src="pwvs6atMNMdw.gif" alt="hi"></img>
 
-            
+            <div class="images">
+                <Avatar alt="image1" src="download.jpeg" />
+                <Avatar alt="image2" src="download.jpeg" />
+                <Avatar alt="image3" src="download.jpeg" />
+            </div>
+
             <div class="hellos">
                 <Zoom bottom>
-                <h1>What is Gruup?</h1>
-                <Button className = "hi" variant="contained" color="primary" href="/howitworks">
-                    Learn More
-                </Button>
+                    <h1>What is Gruup?</h1>
+                    <Button className="hi" variant="contained" color="primary" href="/howitworks">
+                        Learn More
+                    </Button>
                 </Zoom>
-            </div> 
-             <LightSpeed bottom cascade> 
-           <div className = "quote">
-         
-               <p>"One of the most valuable things we can do to heal one another is listen to each other's stories." <br></br>-Rebbeca Falls</p>
-               
-           </div></LightSpeed>
-            
+            </div>
+
+
 
 
 
