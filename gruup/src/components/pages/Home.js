@@ -27,11 +27,11 @@ function Home() {
             <p>
                 Gruup connects you to counselling groups helping<br></br> you with X, Y, Z.  You don’t have to be alone.<br></br> Find your selected community.
             </p>
-            <Roll left>
-                <Button className="hello" variant="contained" color="primary" href="/signup">
-                    Sign Up
+           
+                <Button className="signup" variant="contained" color="primary" href="/howitworks">
+                    Find out more
                 </Button>
-            </Roll>
+         
             <img class="image-logo" src="pwvs6atMNMdw.gif" alt="hi"></img>
 
             <div class="images">
@@ -40,19 +40,14 @@ function Home() {
                 <Avatar alt="image3" src="download.jpeg" />
             </div>
 
-            <div class="hellos">
-                <Zoom bottom>
+            {/* <div class="howitworks">
+              
                     <h1>What is Gruup?</h1>
-                    <Button className="hi" variant="contained" color="primary" href="/howitworks">
+                    <Button className="howitworksbutton" variant="contained" color="primary" href="/howitworks">
                         Learn More
                     </Button>
-                </Zoom>
-            </div>
-
-
-
-
-
+        
+            </div> */}
 
 
         </div>

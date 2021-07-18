@@ -10,14 +10,18 @@
    
 
   }
- .container .hello{
+ .container .signup{
   position: relative;
-  bottom: 255%;
-  left: 1%;
+  bottom: 285%;
+  right: 0%;
   background-color: rgb(241, 202, 93);
-  padding: 15px 90px;
-  font-size: 110%;
-  font-weight: 300px;
+  padding: 9px 50px;
+  border-radius: 17px;
+  font-variant-caps: normal;
+  font-size: 70%;
+  font-weight: 100px;
+
+ 
 }
 .container p{
   padding-top: 7rem;
@@ -27,18 +31,19 @@
   left: 55%;
   bottom: 240%;
 }
-.hellos{
+.howitworks{
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   bottom: 200%;
+
   margin-bottom: 4%;
 }
-.hellos h1{
+.howitworks h1{
   font-size: 400%;
 }
-.hellos .hi{
+.howitworks .howitworksbutton{
   background-color: rgb(241, 202, 93);
   padding: 15px 75px;
   font-size: 110%;

@@ -3,6 +3,11 @@
     flex-direction: column;
     align-items: center; 
 }
+
+.signUp{
+    color: #2F4A6A;
+    
+}
 .hi .his{
     display: flex;
     flex-direction: column;
@@ -13,15 +18,15 @@
     font-size: 400%;
 }
 .his .textfil{
- margin-bottom: 20%;
+ margin-bottom: 8%;
 }
 .his #standard-basic{
     width: 30rem;
 }
 .his .name{
-    margin-top: 7%;
+    margin-top: 5%;
 }
 .his a{
-    color: black;
+    color:#2F4A6A;
 }
 

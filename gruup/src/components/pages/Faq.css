@@ -1,8 +1,30 @@
-.faq{
-    margin-left: 10%;
-    margin-right: 10%;
+.faqheader{
+    color:  #2F4A6A;
+    text-align: left;
     margin-top: 5%;
+    margin-left: 7%;
+    font-size: 3.5rem;
 }
-.faq h2{
+
+
+.question{
+
+    margin-left: 7%;
+    text-align: left;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-weight: bolder;
+    color: #2F4A6A;
+    font-size: 1.8rem;
+}
+
+.answer{
+    text-align: left;
     margin-bottom: 7%;
+    margin-left: 7%;
+    padding-right: 10rem;
+    margin-right: 10%;
+    flex-direction: column;
+    margin-top: 1%;
+    font-size: 1.3rem;
 }
