@@ -8,25 +8,25 @@
     color: #2F4A6A;
     
 }
-.hi .his{
+.hi .form-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 8%;
 }
-.his h1{
+.form-container h1{
     font-size: 400%;
 }
-.his .textfil{
+.form-container .textfil{
  margin-bottom: 8%;
 }
-.his #standard-basic{
+.form-container #standard-basic{
     width: 30rem;
 }
-.his .name{
+.form-container .name{
     margin-top: 5%;
 }
-.his a{
+.form-container a{
     color:#2F4A6A;
 }
 
