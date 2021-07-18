@@ -7,7 +7,7 @@ import Roll from 'react-reveal/Roll';
 import Zoom from 'react-reveal/Zoom';
 import LightSpeed from 'react-reveal/LightSpeed';
 
-// import HeroSection from "../HeroSection";
+ //import HeroSection from "../HeroSection";
 
 
 function Home() {
