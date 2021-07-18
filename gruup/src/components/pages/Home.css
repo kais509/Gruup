@@ -28,15 +28,15 @@
 }
 .container .image-logo{
   position: relative;
-  left: 55%;
-  bottom: 240%;
+  left: 35%;
+  bottom: 220%;
 }
 .howitworks{
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  bottom: 200%;
+  bottom: 840%;
 
   margin-bottom: 4%;
 }
@@ -53,15 +53,43 @@
 .images{
   display: flex;
   flex-direction: row;
-  gap: 20%;
   position: relative;
-  bottom: 200%;
-  left: 25%;
+  bottom: 420%;
+  right: 20%;
 }
-.images .MuiAvatar-img{
-  
+.images img{
+  border-radius: 50%;
+  transform: scale(0.2);
+}
+.images .image2{
+  position: relative;
+  right: 34%;
+}
+.images .image3{
+  position: relative;
+  right: 76%;
 }
 
+.imagedesc1{
+  position: relative;
+  bottom: 680%;
+  text-align: center;
+  right: 38%;
+}
+.imagedesc2{
+  position: relative;
+  bottom: 780%;
+  text-align: center;
+  right: 2%;
+ 
+}
+.imagedesc3{
+  position: relative;
+  bottom: 863%;
+  text-align: center;
+  left: 32%;
+ 
+}
   .word {
     font-size:3em;
     font-weight:bold;

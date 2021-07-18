@@ -13,7 +13,7 @@ function Signup () {
     return (
         <div class = "hi"> 
             <form>
-                <div class = "his">
+                <div className = "form-container">
                 <h1 className = "signUp"> Sign Up </h1>
                 <div className="textfil">    
                 <TextField  id="standard-basic" label="Email Address" />

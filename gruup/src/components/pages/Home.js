@@ -3,10 +3,6 @@ import "../../App.css";
 import "./Home.css";
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Roll from 'react-reveal/Roll';
-import Zoom from 'react-reveal/Zoom';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Avatar from '@material-ui/core/Avatar';
 
 //import HeroSection from "../HeroSection";
 
@@ -35,19 +31,22 @@ function Home() {
             <img class="image-logo" src="pwvs6atMNMdw.gif" alt="hi"></img>
 
             <div class="images">
-                <Avatar alt="image1" src="download.jpeg" />
-                <Avatar alt="image2" src="download.jpeg" />
-                <Avatar alt="image3" src="download.jpeg" />
+                <img className ="image1" src="money.jpeg" />
+                <img className ="image2" src="friends.jpeg" />
+                <img className ="image3" src="friends.jpeg" />
             </div>
+            <p className= "imagedesc1">Feeling goof shouldn't hurt your wallet. <br></br>Significantly cheaper than 1-1 online and<br></br> in-person therapy.</p>
+            <p className = "imagedesc2">Find a community.</p>
+            <p className = "imagedesc3">Easy process. See here.</p>
 
-            {/* <div class="howitworks">
+            { <div class="howitworks">
               
-                    <h1>What is Gruup?</h1>
-                    <Button className="howitworksbutton" variant="contained" color="primary" href="/howitworks">
-                        Learn More
+                    <h1>Any More Questions?</h1>
+                    <Button className="howitworksbutton" variant="contained" color="primary" href="/faq">
+                        Check out FAQ
                     </Button>
         
-            </div> */}
+            </div> }
 
 
         </div>

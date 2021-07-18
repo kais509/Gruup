@@ -1,8 +1,12 @@
-.airTable{
-
-    height:533;
+h1{
+    color:  #2F4A6A;
+    font-size: 4.6rem;
+}
+.airtable-embed{
+    position: relative;
+    top: 50%;
+    height:30rem;
     width: 50rem;
     background: transparent;
-    border: 1px solid #ccc;
-
+    border: 5px solid #ccc;
 }
